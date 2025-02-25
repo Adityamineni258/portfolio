@@ -66,6 +66,7 @@ header p {
     font-size: 1.3rem;
     font-weight: 300;
     letter-spacing: 0.5px;
+    white-space: nowrap;
 }
 
 .social-icons {
