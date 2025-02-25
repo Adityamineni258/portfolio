@@ -3,92 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Aditya Chowdhary Mineni, a passionate computer science student and software developer.">
-    <meta name="keywords" content="Aditya Chowdhary Mineni, Computer Science, Software Developer, Portfolio">
+    <meta name="description" content="Portfolio of Aditya Chowdhary Mineni, a passionate computer science student and software developer specializing in web development and cybersecurity.">
+    <meta name="keywords" content="Aditya Chowdhary Mineni, Computer Science, Software Developer, Cybersecurity, Web Development, Portfolio">
     <meta name="author" content="Aditya Chowdhary Mineni">
-    <title>Aditya Chowdhary Mineni - Portfolio</title>
+    <title>Aditya Chowdhary Mineni | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Aditya Chowdhary Mineni</h1>
-        <p>Computer Science Student | Software Developer | Tech Enthusiast</p>
+        <div class="header-content">
+            <h1>Aditya Chowdhary Mineni</h1>
+            <p>Computer Science Student | Software Developer | Cybersecurity Enthusiast</p>
+            <div class="social-icons">
+                <a href="https://github.com/Adityamineni258" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://in.linkedin.com/in/aditya-chowdhary-mineni-0a5a5b182" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:adityachowdhary551@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </header>
     
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="#skills"><i class="fas fa-laptop-code"></i> Skills</a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+            <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
     </nav>
     
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate computer science student with a strong interest in emerging technologies, software development, and cybersecurity. With experience in C, Python, Java, HTML, CSS, JavaScript, React, Node.js, and Android development, I enjoy building scalable web and mobile applications.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong><a href="https://github.com/Adityamineni258/Karna" target="_blank">Karna</a>:</strong> A mental health AI chatbot powered by the Gemini API.</li>
-            <li><strong><a href="https://github.com/Adityamineni258/Empowering-Survivors" target="_blank">Empowering Survivors</a>:</strong> A website providing support and resources for sexual assault victims.</li>
-        </ul>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>C, Python, Java</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Node.js</li>
-            <li>Android Development</li>
-            <li>Cybersecurity</li>
-            <li>Gemini API for AI Chatbot Development</li>
-        </ul>
-    </section>
-    
-    <section id="experience">
-        <h2>Experience</h2>
-        <article>
-            <h3>GeekBase Technology</h3>
-            <p><strong>Web Development Intern</strong></p>
-            <p>Gained hands-on experience with Java, web technologies, and cybersecurity while working on real-world projects.</p>
-        </article>
+    <main>
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate computer science student with a strong interest in emerging technologies, software development, and cybersecurity. With experience in multiple programming languages and frameworks, I enjoy building scalable web and mobile applications that solve real-world problems.</p>
+                    <p>My goal is to leverage technology to create meaningful solutions that make a positive impact. When I'm not coding, I'm actively involved in community service and staying updated with the latest tech trends.</p>
+                </div>
+            </div>
+        </section>
         
-        <article>
-            <h3>PURE Youth CMRIT</h3>
-            <p><strong>Coordinator</strong></p>
-            <p>Organized and conducted events to serve the community, contributing to various social initiatives.</p>
-        </article>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Karna</h3>
+                    <p>A mental health AI chatbot powered by the Gemini API designed to provide support and resources for users experiencing mental health challenges.</p>
+                    <div class="project-tags">
+                        <span>AI</span>
+                        <span>Python</span>
+                        <span>Gemini API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Adityamineni258/Karna" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Empowering Survivors</h3>
+                    <p>A comprehensive website providing support, resources, and community for sexual assault victims, helping them navigate recovery and access assistance.</p>
+                    <div class="project-tags">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Adityamineni258/Empowering-Survivors" target="_blank" class="btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-        <article>
-            <h3>Streetcause CMRIT</h3>
-            <p><strong>Coordinator</strong></p>
-            <p>Led community-driven projects and initiatives focused on social impact and development.</p>
-        </article>
-    </section>
-    
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li><a href="https://www.coursera.org/account/accomplishments/professional-cert/ABC123">Google Professional Cybersecurity Certification</a></li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:adityachowdhary551@gmail.com">My Email</a></p>
-        <p>GitHub: <a href="https://github.com/Adityamineni258" target="_blank">My Github</a></p>
-        <p>LinkedIn: <a href="https://in.linkedin.com/in/aditya-chowdhary-mineni-0a5a5b182" target="_blank">My linkedin</a></p>
-        <p>LeetCode: <a href="https://leetcode.com/u/22r01a6247/" target="_blank">My leetcode profile</a></p>
-    </section>
+        <section id="skills">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-code"></i> C</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-java"></i> Java</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul class="skills-list">
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-node-js"></i> Node.js</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul class="skills-list">
+                        <li><i class="fab fa-android"></i> Android Development</li>
+                        <li><i class="fas fa-shield-alt"></i> Cybersecurity</li>
+                        <li><i class="fas fa-robot"></i> AI Integration (Gemini API)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>GeekBase Technology</h3>
+                        <span class="timeline-date">Web Development Intern</span>
+                        <p>Gained hands-on experience with Java, web technologies, and cybersecurity while working on real-world projects. Contributed to the development of client websites and internal tools.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>PURE Youth CMRIT</h3>
+                        <span class="timeline-date">Coordinator</span>
+                        <p>Organized and conducted events to serve the community, contributing to various social initiatives. Led a team of volunteers in planning and executing community service projects.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Streetcause CMRIT</h3>
+                        <span class="timeline-date">Coordinator</span>
+                        <p>Led community-driven projects and initiatives focused on social impact and development. Coordinated with multiple stakeholders to identify and address community needs through technological solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="cert-container">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="cert-details">
+                        <h3>Google Professional Cybersecurity Certification</h3>
+                        <p>Comprehensive certification covering security principles, network security, cryptography, and security operations.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/professional-cert/ABC123" target="_blank" class="cert-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>Email: <a href="mailto:adityachowdhary551@gmail.com">adityachowdhary551@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p>GitHub: <a href="https://github.com/Adityamineni258" target="_blank">github.com/Adityamineni258</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>LinkedIn: <a href="https://in.linkedin.com/in/aditya-chowdhary-mineni-0a5a5b182" target="_blank">Aditya Chowdhary Mineni</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-code"></i>
+                        <p>LeetCode: <a href="https://leetcode.com/u/22r01a6247/" target="_blank">leetcode.com/u/22r01a6247</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     
     <footer>
-        <p>&copy; 2025 Aditya Chowdhary Mineni. All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Aditya Chowdhary Mineni. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Simple smooth scroll for navigation links
+        document.querySelectorAll('nav a, .footer-links a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
