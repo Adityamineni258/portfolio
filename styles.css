@@ -74,7 +74,7 @@ header p {
 
 .social-icons a {
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem; /* Modified: Reduced from 1.4rem to medium size */
     margin: 0 0.8rem;
     display: inline-block;
     transition: transform 0.3s ease;
@@ -114,6 +114,7 @@ nav ul li a {
     font-size: 1rem;
     transition: all 0.3s ease;
     font-weight: 600;
+    /* Modified: Removed background change on hover */
 }
 
 nav ul li a i {
@@ -122,20 +123,20 @@ nav ul li a i {
 }
 
 nav ul li a:hover {
-    background: #1a3c6e;
-    color: #ffffff;
+    color: #0d2649; /* Modified: Changed from white to darker blue */
     transform: translateY(-3px);
+    /* Modified: Removed background change */
 }
 
 nav ul li a:hover i {
-    color: #ffffff;
+    color: #0d2649; /* Modified: Changed from white to darker blue */
 }
 
 nav ul li a::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 3px;
+    height: 2px; /* Modified: Reduced from 3px */
     background: #1a3c6e;
     bottom: 10px;
     left: 50%;
@@ -144,8 +145,8 @@ nav ul li a::after {
 }
 
 nav ul li a:hover::after {
-    width: 40%;
-    background: #ffffff;
+    width: 60%; /* Modified: Increased from 40% */
+    background: #1a3c6e; /* Modified: Changed from white to blue */
 }
 
 /* Main Content */
@@ -430,7 +431,7 @@ section h2::after {
 }
 
 .contact-item i {
-    font-size: 1.5rem;
+    font-size: 1.2rem; /* Modified: Reduced from 1.5rem to medium size */
     color: #1a3c6e;
     margin-right: 1.5rem;
     width: 30px;
