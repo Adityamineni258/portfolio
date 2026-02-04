@@ -1,1 +1,1 @@
-https://adityamineni258.github.io/portfolio/
+https://adityamineni.tech
